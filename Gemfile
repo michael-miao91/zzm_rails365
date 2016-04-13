@@ -1,4 +1,4 @@
-source 'htts://gems.ruby-china.org/'
+source 'https://gems.ruby-china.org/'
 
 gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
@@ -18,10 +18,20 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'rspec-rails'           #分装RSpec的程序,还包含了一些专为Rails提供的功能
+  gem 'factory_girl_rails'    #分装RSpec的程序,还包含了一些专为Rails提供的功能
+  gem 'guard-rspec'           #自动化测试
+  gem 'spring-commands-rspec' #自动化测试
 end
 
 group :development do
   gem 'quiet_assets'
+end
+
+group :test do
+  gem 'faker'                   #为预构件生成名字, Email地址以及其他的示例数据
+  gem 'database_cleaner'        #为预构件生成名字, Email地址以及其他的示例数据
+  gem 'shoulda-matchers'        #model验证测试
 end
 
 
