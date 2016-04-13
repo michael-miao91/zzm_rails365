@@ -8,7 +8,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 
 gem 'jquery-rails'
-gem 'turbolinks'
+# gem 'turbolinks'
+gem 'redcarpet' #替换 turbolinks
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5'
