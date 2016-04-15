@@ -8,12 +8,16 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 
 gem 'jquery-rails'
-# gem 'turbolinks'
-gem 'redcarpet' #替换 turbolinks
+# gem 'turbolinks'  #去掉
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'slim-rails', '~> 3.0.1'
+
+#markdown 插件
+gem 'redcarpet', '~> 3.3.2'
+gem 'rouge', '~> 1.9.1' #配置语法高亮
+
 
 group :development, :test do
   gem 'byebug'

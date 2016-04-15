@@ -156,6 +156,7 @@ GEM
     rdoc (4.2.2)
       json (~> 1.4)
     redcarpet (3.3.4)
+    rouge (1.9.1)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -240,7 +241,8 @@ DEPENDENCIES
   mysql2 (>= 0.3.13, < 0.5)
   quiet_assets
   rails (= 4.2.6)
-  redcarpet
+  redcarpet (~> 3.3.2)
+  rouge (~> 1.9.1)
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
