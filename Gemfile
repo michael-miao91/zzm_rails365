@@ -15,8 +15,14 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'slim-rails', '~> 3.0.1'
 
 #markdown 插件
+#lib 下配置my_markdown
 gem 'redcarpet', '~> 3.3.2'
 gem 'rouge', '~> 1.9.1' #配置语法高亮
+
+#application.yml 配置使用
+# bundle exec figaro install
+gem 'figaro'
+
 
 
 group :development, :test do
