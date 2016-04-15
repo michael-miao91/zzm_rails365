@@ -37,5 +37,8 @@ module ZzmRails365
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
 
+    #配置error page 启动的
+    config.exceptions_app = self.routes
+
   end
 end
